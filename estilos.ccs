@@ -1,0 +1,66 @@
+header {
+    background-color: rgb(78, 84, 251);
+    display: block;
+    color: rgb(24, 24, 49);
+    text-align: center;
+}
+
+nav {
+    background-color: #ae892a;
+    padding: 10px 0p;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.city {
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    min-width: 160px;
+    box-shadow: 0 8px 16px grey;
+    z-index: 1;
+}
+.city a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.city a:hover {
+    background-color: #bc901a;
+}
+.islas:hover .city {
+    display: block;
+}
+
+li {
+    padding: 10px 20px;
+    background-color: #bc901a;
+    border-radius:9px;   
+}
+
+footer {
+   border-block-color: black 30px;
+   color: grey;
+}
+
